@@ -2,7 +2,7 @@
   "name": "RockyBoy",
   "version": "1.0.0",
   "description": "Super Cool Framework",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "author": "joe santos garcia",
   "license": "MIT",
   "homepage": "http://rocky.codingphase.com/",
