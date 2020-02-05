@@ -2,7 +2,7 @@
   "name": "RockyBoy",
   "version": "1.0.0",
   "description": "Super Cool Framework",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "author": "joe santos garcia",
   "license": "MIT",
   "homepage": "http://rocky.codingphase.com/",
@@ -38,6 +38,7 @@
     "webpack-stream": "^3.2.0"
   },
   "scripts": {
+    "build": "webpack",
     "start": "node server/server.js",
     "bundle": "./node_modules/.bin/webpack",
     "production": "./node_modules/.bin/webpack -p",
